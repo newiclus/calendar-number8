@@ -1,7 +1,32 @@
 /****** Home ******/
-#datePicker {
-    width:400px; 
-    height:300px; 
-    //position:absolute; 
-    //top:70px; left:100px;
+#date-input {
+    visibility: hidden;
+}
+
+/* Custom styles for glDatePicker */
+
+// Styles for weekend
+.gldp-flatwhite .sun,
+.gldp-flatwhite .sat {
+    background-color: yellow;
+}
+
+//Styles for rest of week
+.gldp-flatwhite .mon, 
+.gldp-flatwhite .tue, 
+.gldp-flatwhite .wed, 
+.gldp-flatwhite .thu, 
+.gldp-flatwhite .fri {
+    background-color: #a0cca0;
+}
+
+.gldp-flatwhite .outday {
+    cursor: not-allowed !important;
+    background-color: #eee !important;
+    color: #777 !important;
+    cursor: no
+}
+
+.gldp-flatwhite .selected {
+    background-color: rgb(248, 123, 78);
 }
