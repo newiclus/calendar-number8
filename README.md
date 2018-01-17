@@ -9,4 +9,4 @@ Setup
 -------
 - Execute the command in you console: `npm install` for install dependencies.
 - Next execute `npm start`.
-- Open you browser and open this address: http://localhost:7070
+- Open you browser and type this address: http://localhost:7070
