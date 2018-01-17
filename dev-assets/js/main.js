@@ -2,12 +2,16 @@
 
 const APP = {
   /** only for the home view */
-  home: function () {  
+  home: function () {
     
-    var ele = {
-      openMenu: $("#navigation .open-menu"),
+    const ele = {
+      startDay: $("#start_day"),
     };
 
+    // Interactive demo
+	  var datePicker = ele.startDay.glDatePicker({
+      showAlways: true
+    }).glDatePicker(true);
 
 
   }

@@ -7,22 +7,25 @@ block content
 
   section#body.container
     .row
-      .col-xs-12.col-md-3
-        form.form(action="#")
+      form.form(action="#")
+        .col-xs-12.col-md-4
           .form-group
             label(for="start_day") Start Date:
-            input#start_day.form-control(type="date", readonly, value="2008-08-15")
-            
+            input#start_day.form-control(type="date", value="2008-08-15")
+        
+        .col-xs-12.col-md-4
           .form-group
             label(for="number_days") Number of days
             input#number_days.form-control(type="number", max="365", min="1")
 
+        .col-xs-12.col-md-4
           .form-group
             label(for="country_code") Country Code:
             select#country_code.form-control(name="country")
               option(value="0") ---
               option(value="us") US
               option(value="pe") PE
+      
 
 
       

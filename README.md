@@ -7,6 +7,6 @@ Requirements
 
 Setup
 -------
-- Execute the command in you console: `npm install` for install dependencies.
+- Execute the command in your console: `npm install` for install dependencies.
 - Next execute `npm start`.
-- Open you browser and type this address: http://localhost:7070
+- Open your browser and type this address: http://localhost:7070
